@@ -35,7 +35,9 @@
 }
 
 /* general styles */
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     background: var(--clr-dark);
     color: var(--clr-light);
@@ -192,8 +194,8 @@ header {
 .nav-open .hamburger::before {
     transform: rotate(90deg) translateX(-6px);
 }
-.nav-open ,hamburger::after {
-   // opacity: 0;
+.nav-open .hamburger::after {
+    opacity: 0;
 }
 
 
