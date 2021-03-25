@@ -458,10 +458,16 @@ overflow: hidden;
 }
 
 .portfolio-item-individual p {
-    max-width: 600px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;;
 }
 
-
+.portfolio-item-individual a {
+    text-decoration: none;
+    color: var(--clr-accent);
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
 
