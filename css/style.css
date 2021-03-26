@@ -310,6 +310,14 @@ bottom: 6px;
       margin: 0 auto;;
 
   }
+  .service h3 {
+    text-align: center;
+  }
+  .service li  {
+    list-style: none;
+    text-align: center;
+    
+  }
 @media (min-width: 800px) {
     .services {
         display: flex;
