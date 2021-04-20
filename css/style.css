@@ -406,6 +406,7 @@ text-decoration:none;
 .portfolio__text {
     color: var(--clr-dark);
     font-weight:var(--fw-bold) ;
+    margin: 10px;
   
 }
 
