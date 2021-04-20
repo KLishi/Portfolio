@@ -395,11 +395,18 @@ bottom: 6px;
 .portfolio__item {
 background: var(--clr-accent);
 overflow: hidden;
+border:solid var(--clr-dark);
+text-decoration:none;
 }
 
 .portfolio__img {
     transition: transform 750ms cubic-bezier(.5, 0, .5, 1),
     opacity 250ms linear;
+}
+.portfolio__text {
+    color: var(--clr-dark);
+    font-weight:var(--fw-bold) ;
+  
 }
 
 .portfolio__item:focus {
