@@ -11,8 +11,8 @@
   --fw-reg: 300;
   --fw-bold: 900;
 
-  --clr-light: #ffffff;
-  --clr-dark: #000000;
+  --clr-light: #000000;
+  --clr-dark: #ffffff;
   --clr-accent: #34acbc;
 
   --fs-h1: 3rem;
@@ -261,7 +261,7 @@ header {
 .my-services {
   color: var(--clr-light);
   background-image: url(../images/services-bg.jpg);
-  background-color: #303030;
+  background-color: var(--clr-dark);
   background-blend-mode: multiply;
   background-size: cover;
   text-align: center;
@@ -346,7 +346,7 @@ header {
 /* my work */
 
 .my-work {
-  background: #303030;
+  background: var(--clr-dark);
 
   background-blend-mode: saturation;
   color: var(--clr-light);
