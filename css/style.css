@@ -126,6 +126,7 @@ header {
 .logo {
   color: var(--clr-accent);
   margin: 0;
+  letter-spacing: -18px;
 }
 .logo a {
   text-decoration: none;
